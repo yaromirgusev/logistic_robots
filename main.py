@@ -52,7 +52,7 @@ def full_pipeline(robot, starting_point : str, stay_point : str, end_point : str
     wait_until_robot_completes_move(robot)
 
 for i in range(3):
-    full_pipeline('Robot12', 'Mendeleev', 'Apollo', 'Verhov')
+    full_pipeline('Robot11', 'Mendeleev', 'Apollo', 'Verhov')
 
 
 
